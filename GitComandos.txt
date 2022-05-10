@@ -1,0 +1,11 @@
+git init
+git clone link da url = clonar um repositótio
+git branch nova branch = criar nova branch
+git branch -D nome da branch = deletar branch
+git checkout nome da branch =  mudar para branch escolhida
+git status
+git add nome do arquivo
+git add . = adiciona todos os arquivos dentro da pasta
+git commit -m = usado para explicar as mudanças feitas no projeto
+git push remote origin nome da branch = adicionar arquivos da maquina para o github
+git pull = puxa arquivos do repositorio para a maquina
