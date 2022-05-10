@@ -9,3 +9,4 @@ git add . = adiciona todos os arquivos dentro da pasta
 git commit -m = usado para explicar as mudanças feitas no projeto
 git push remote origin nome da branch = adicionar arquivos da maquina para o github
 git pull = puxa arquivos do repositorio para a maquina
+git merge = une branchs com a main
