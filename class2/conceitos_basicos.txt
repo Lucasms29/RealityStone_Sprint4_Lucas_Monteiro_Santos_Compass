@@ -14,3 +14,5 @@ operadores matemáticos
 / divisão
 % módulo
 ** expoente
+
+entrada e saída
