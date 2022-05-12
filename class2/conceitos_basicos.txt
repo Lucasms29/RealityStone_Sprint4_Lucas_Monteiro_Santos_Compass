@@ -1,0 +1,8 @@
+tipos de dados
+-integer
+-float
+-boolean
+-string
+-array
+-hash
+-simbol
