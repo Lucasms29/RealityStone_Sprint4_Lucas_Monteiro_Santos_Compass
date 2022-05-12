@@ -1,0 +1,6 @@
+condicional
+if = verifica se uma condição é verdadeira
+else = informa quando o if é falso
+else if = verifica se outra condição é verdadeira
+unless = verifica se uma condição é falsa
+case = parecida com if e é melhor usada quando se tem diversas condições
