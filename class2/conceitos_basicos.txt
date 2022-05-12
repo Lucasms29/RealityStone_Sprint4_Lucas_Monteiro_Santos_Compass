@@ -6,3 +6,11 @@ tipos de dados
 -array
 -hash
 -simbol
+
+operadores matemáticos
++ adição
+- subtração
+* multiplicação
+/ divisão
+% módulo
+** expoente
