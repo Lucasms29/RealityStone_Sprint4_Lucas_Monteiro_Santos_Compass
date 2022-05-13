@@ -46,3 +46,5 @@ nome do hash.size = tamanho do hash
 nome do hash.delete(:nome da chave) = remove um elemento chave-valor
 
 nome do hash.empsty? = retorna true ou false
+
+
