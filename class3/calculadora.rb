@@ -26,7 +26,26 @@ loop do
         r = n1+n2
         result = "Resultado = #{r}"
     elsif option2 == 2
-        break option2 == 2
+        print 'Primeiro número: '
+        n1 = gets.chomp.to_i
+        print 'Segundo número: '
+        n2 = gets.chomp.to_i
+        r = n1-n2
+        result = "Resultado = #{r}"
+    elsif option2 == 3
+        print 'Primeiro número: '
+        n1 = gets.chomp.to_i
+        print 'Segundo número: '
+        n2 = gets.chomp.to_i
+        r = n1*n2
+        result = "Resultado = #{r}"
+    elsif option2 == 4
+        print 'Primeiro número: '
+        n1 = gets.chomp.to_i
+        print 'Segundo número: '
+        n2 = gets.chomp.to_i
+        r = n1/n2
+        result = "Resultado = #{r}"
     else
         result = 'Opção inválida!'
     end
