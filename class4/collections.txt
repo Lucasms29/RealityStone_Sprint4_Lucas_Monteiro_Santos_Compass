@@ -1,0 +1,27 @@
+array
+nome do array.push(elemento) = adiciona um ou mais elementos no final do array
+
+nome do array.insert(0, elemento) = adiciona um ou mais elementos em determinadas posições do array (nesse exemplo
+estamos adicionando um elemento na posição 0)
+
+nome do array.count ou .lenght = retorna a quantidade de itens em um array
+
+nome do array.empty = retorna true ou false
+
+nome do array.include('elemento') = verifica se determinado elemento está presente no array
+
+nome do array.delet_at(2) = remove um elemento através do seu índice
+
+nome do array.pop = exclui o ultimo elemento do array
+
+nome do array.shift = exclui o primeiro elemento do array
+
+nome do array[2] = mostra o elemento que está no indice 2
+
+nome do array[2..6] = mostra os elementos do indice 2 ao 6
+
+nome do array[-2] = mostra o penultimo elemento
+
+nome do array.first = mostra o primeiro elemento do array
+
+nome do array.last = mostra o último elemento do array
