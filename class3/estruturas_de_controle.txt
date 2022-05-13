@@ -9,5 +9,5 @@ interação
 for = percorre coleção de elementos
 times = executa uma repetição por determinado número de vezes
 while = percorre o código enquanto a condição for verdadeira
-do while = só é parado quando uma instrução break for verdadeira
+do while or loop = só é parado quando uma instrução break for verdadeira
  
