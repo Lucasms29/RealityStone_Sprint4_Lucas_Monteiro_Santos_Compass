@@ -7,3 +7,4 @@ talk #pode repetir caso deseje usar mais de uma vez, basta chamar o método nova
 talk
 
 
+Gems são conjuntos de bibliotecas
