@@ -47,4 +47,15 @@ nome do hash.delete(:nome da chave) = remove um elemento chave-valor
 
 nome do hash.empsty? = retorna true ou false
 
+nome do hash.has_key?(chave que deseja checar)
+tambem pode ser usado .include?, .key?, .member?
+
+mesma coisa para valores
+
+nome do hash.value?(valor que deseja checar)
+
+nome do hash.has_value?
+
+
+
 
