@@ -18,4 +18,4 @@ cachorro = Cachorro.new
 cachorro.pular
 cachorro.dormir
 cachorro.latir 
-#não foi preciso reescrever o método pular e dormir pois foram herdados da classe Cachorro
+#não foi preciso reescrever o método pular e dormir pois foram herdados da classe Cachorrogem
