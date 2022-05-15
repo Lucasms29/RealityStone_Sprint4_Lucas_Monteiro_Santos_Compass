@@ -1,7 +1,7 @@
 result = ''
 loop do
     puts result
-    puts 'Bem vindo!'
+    puts 'Bem vindo a calculadora!'
     puts 'Começar uma operação, digite 1.'
     puts 'Para sair, digite 2.'
     print 'Opção: '
