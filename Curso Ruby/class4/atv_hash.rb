@@ -1,8 +1,15 @@
-variáveis = {}
-variáveis[gets.chomp.to_s] = "#{gets.chomp.to_i}"
-variáveis[gets.chomp.to_s] = "#{gets.chomp.to_i}"
-variáveis[gets.chomp.to_s] = "#{gets.chomp.to_i}"
+hash = {}
 
-variáveis.each do |key, value|
-    puts "Uma das chaves é #{key}, e seu valor é #{value}"
+3.times do 
+    print 'Informe uma chave: '
+    key = gets.chomp
+
+    print 'Informe seu valor: '
+    value = gets.chomp
+
+    hash[key] = value
+end
+
+hash.each do |k, v|
+    puts "Uma das chaves é #{k} e o seu valor é #{v}"
 end

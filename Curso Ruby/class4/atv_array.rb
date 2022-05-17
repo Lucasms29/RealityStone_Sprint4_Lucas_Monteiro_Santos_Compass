@@ -1,13 +1,15 @@
-numbers = [3, 4, 5]
-
-puts "\n Mostrando elementos na segunda potência!"
-
-new_numbers = numbers.map do |x|
-    x ** 2
+array = []
+ 
+i = 1
+ 
+1..3.times do 
+    print "Digite o #{i}º número: "
+    array.push gets.chomp.to_i
+ 
+     i += 1
 end
-
-puts "\n Numbers"
-puts " #{numbers}"
-
-puts "\n New numbers"
-puts " #{new_numbers}"
+ 
+array.each do |a|
+    result = a ** 2
+    puts "O resultado do número #{a} elevado a segunda potência é #{result}"
+end
