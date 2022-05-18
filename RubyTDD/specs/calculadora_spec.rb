@@ -1,4 +1,5 @@
 require 'rspec'
+require 'pry'
 require_relative '../src/calculadora'
 
 describe('calculadora') do
@@ -15,6 +16,10 @@ describe('calculadora') do
         expect(calculadora.soma(-9, -10)).to eq -19
     end
 
+    it('Deve subtrair dois inteiros positivos') do
+        binding.pry
+        expect(calculadora.subtrai(10, 5)).to eq 5
+    end
 
 end
 
