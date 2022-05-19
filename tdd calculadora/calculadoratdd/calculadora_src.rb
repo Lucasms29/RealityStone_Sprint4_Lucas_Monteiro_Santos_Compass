@@ -44,4 +44,25 @@ describe('calculadora') do
     it('Deve dividir dois números float positivos') do
         expect(calculadora.divide(5.0, 10.0)).to eq 0.5
     end
-end
+
+    it('Deve calcular a raiz quadrada de um número int positivo') do
+        expect(calculadora.raiz_quadrada(25)).to eq 5
+    end
+
+    it('Deve calcular o exponencial de um número int positivo') do
+        expect(calculadora.exponencial(10, 2)).to eq 100
+    end
+
+    it('O resultado da multiplicação deve ser menor que 0') do
+        expect(calculadora.multiplica(2, -2)).to be < 0
+    end
+
+    it('O resultado da exponenciação deve ser menor que 0') do
+        expect(calculadora.exponencial(-2, 7)).to be < 0
+    end
+
+    it('O resultado da exponenciação deve ser maior que 0') do
+        expect(calculadora.exponencial(-2, 4)).to be > 0
+    end
+
+end 

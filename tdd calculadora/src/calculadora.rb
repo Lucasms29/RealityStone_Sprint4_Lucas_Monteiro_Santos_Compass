@@ -15,4 +15,13 @@ class Calculadora
     def divide(a, b)
         a / b
     end
+    
+    def raiz_quadrada(a)
+        Math.sqrt(a)
+    end
+
+    def exponencial(a, b)
+        a ** b
+    end
+
 end
