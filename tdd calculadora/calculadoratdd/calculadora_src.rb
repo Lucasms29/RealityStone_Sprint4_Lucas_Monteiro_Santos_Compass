@@ -41,7 +41,7 @@ describe('calculadora') do
         expect(calculadora.subtrai(2, 9)).to be < 0
     end
 
-    it('Deve dividir dois números float positivos') do
+    it('Deve efetuar a divisão dois números float positivos') do
         expect(calculadora.divide(5.0, 10.0)).to eq 0.5
     end
 
@@ -63,6 +63,22 @@ describe('calculadora') do
 
     it('O resultado da exponenciação deve ser maior que 0') do
         expect(calculadora.exponencial(-2, 4)).to be > 0
+    end
+
+    it('Deve multiplicar um número int positivo com um número float positivo') do 
+        expect(calculadora.multiplica(2, 2.50)).to be == 5.0
+    end
+
+    it('Deve calcular a exponenciação de um número float') do
+        expect(calculadora.exponencial(2.5, 2)).to eq 6.25
+    end
+
+    it('Deve efetuar a divisão de dois números int positivos') do
+        expect(calculadora.divide(10, 5)).to eq 2
+    end
+
+    it('Deve efetuar a divisão entre um número int positivo e um número int negativo') do
+        expect(calculadora.divide(20, -5)).to be < 0
     end
 
 end 
