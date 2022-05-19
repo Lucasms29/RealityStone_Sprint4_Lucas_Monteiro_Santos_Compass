@@ -9,7 +9,7 @@ describe('calculadora') do
         expect(calculadora.soma(5, 5)).to eq 10
     end
 
-    it('Deve somar dois numeros int negativos') do
+    it('Deve somar dois numeros negativos') do
         expect(calculadora.soma(-5, -10)).to eq -15
     end
 
@@ -17,7 +17,7 @@ describe('calculadora') do
         expect(calculadora.soma(3, 0)).to eq 3
     end
 
-    it('Deve somar um número int negativo com 0') do
+    it('Deve somar um número negativo com 0') do
         expect(calculadora.soma(-5, 0)).to eq -5
     end
 
@@ -53,15 +53,15 @@ describe('calculadora') do
         expect(calculadora.exponencial(10, 2)).to eq 100
     end
 
-    it('O resultado da multiplicação deve ser menor que 0') do
+    it('Deve multiplicar um número positivo com um número negativo e resultado deve ser menor que 0') do
         expect(calculadora.multiplica(2, -2)).to be < 0
     end
 
-    it('O resultado da exponenciação deve ser menor que 0') do
+    it('Deve calcular a exponenciação de um número negativo eo resultado deve ser menor que 0') do
         expect(calculadora.exponencial(-2, 7)).to be < 0
     end
 
-    it('O resultado da exponenciação deve ser maior que 0') do
+    it('Deve calcular a exponenciação de um número negativo e o resultado deve ser maior que 0') do
         expect(calculadora.exponencial(-2, 4)).to be > 0
     end
 
@@ -77,8 +77,9 @@ describe('calculadora') do
         expect(calculadora.divide(10, 5)).to eq 2
     end
 
-    it('Deve efetuar a divisão entre um número int positivo e um número int negativo') do
+    it('Deve efetuar a divisão entre um número int positivo e um número negativo') do
         expect(calculadora.divide(20, -5)).to be < 0
     end
+
 
 end 
