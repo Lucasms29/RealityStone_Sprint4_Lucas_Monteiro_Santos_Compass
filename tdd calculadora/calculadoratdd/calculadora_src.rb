@@ -81,5 +81,9 @@ describe('calculadora') do
         expect(calculadora.divide(20, -5)).to be < 0
     end
 
+    it('Deve mostar a divisão de 0 por um número positivo') do
+        expect(calculadora.divide(0, 7)).to be == 0
+    end
+
 
 end 
