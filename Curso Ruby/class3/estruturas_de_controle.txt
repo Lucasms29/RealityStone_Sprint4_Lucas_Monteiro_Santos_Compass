@@ -1,0 +1,13 @@
+condicional
+if = verifica se uma condição é verdadeira
+else = informa quando o if é falso
+else if = verifica se outra condição é verdadeira
+unless = verifica se uma condição é falsa
+case = parecida com if e é melhor usada quando se tem diversas condições
+
+interação
+for = percorre coleção de elementos
+times = executa uma repetição por determinado número de vezes
+while = percorre o código enquanto a condição for verdadeira
+do while or loop = só é parado quando uma instrução break for verdadeira
+ 

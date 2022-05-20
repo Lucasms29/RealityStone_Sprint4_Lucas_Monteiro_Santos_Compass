@@ -1,0 +1,10 @@
+Métodos são parecidos com funções
+def talk
+ puts 'Olá, como você está?'
+end
+ 
+talk #pode repetir caso deseje usar mais de uma vez, basta chamar o método novamente
+talk
+
+
+Gems são conjuntos de bibliotecas

@@ -1,0 +1,18 @@
+tipos de dados
+-integer
+-float
+-boolean
+-string
+-array
+-hash
+-simbol
+
+operadores matemáticos
++ adição
+- subtração
+* multiplicação
+/ divisão
+% módulo
+** expoente
+
+entrada e saída
